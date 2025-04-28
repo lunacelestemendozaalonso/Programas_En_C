@@ -20,7 +20,7 @@ int main (){
 
     //Escribir encabezados //fprintf es para imprimir en el archivo 
     fprintf (file, "Nombre, Edad, Pais\n");
-        printf ("Cuantas personas quires regristrar? "); 
+        printf ("¿Cuántas personas quires regristrar? "); 
         scanf ("%d", &cantidad);
      getchar(); // Limpiar el buffer de entrada 
     
